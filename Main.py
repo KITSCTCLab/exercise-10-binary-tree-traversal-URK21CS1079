@@ -34,7 +34,7 @@ def binarySearch(arr, low , high , x):
     else:
         return 0
 
-n = int(input("Enter the Range for the Array:"))
+n = int(input())
 arr = []
 for i in range(n):
     arr.append(int(input()))
